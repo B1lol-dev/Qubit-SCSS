@@ -1,0 +1,169 @@
+.industry{
+    padding-bottom: 85px;
+
+    .container{
+
+
+        .industry_content{
+
+
+            .cards_wrapper{
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(492.86px, 1fr));
+                grid-template-rows: repeat(auto-fit, minmax(200px, auto));
+                justify-content: space-around;
+                grid-gap: 32px;
+                padding-top: 58px;
+
+                .card{
+                    color: $text_sc;
+                    background: $card_bg;
+                    display: flex;
+                    flex-direction: column;
+                    border-radius: 8px 10px 10px 8px;
+                    padding: 37px 54px 23px 32px;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    width: 492.86px;
+                    height: 199px;
+
+                    &:nth-child(2){
+                        .card_content{
+                            .card_title{
+                                p{
+                                    &::before{
+                                        content: url(../assets/industry/industry_logo2.svg);
+                                    }
+                                }
+                            }
+                            .card_text{
+                                p{
+                                    &:last-child{
+                                        bottom: calc(-9.25px * 2);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:nth-child(3){
+                        .card_content{
+                            .card_title{
+                                p{
+                                    &::before{
+                                        content: url(../assets/industry/industry_logo3.svg);
+                                    }
+                                }
+                            }
+                            .card_text{
+                                p{
+                                    &:last-child{
+                                        bottom: calc(-9.25px * 2);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:nth-child(4){
+                        .card_content{
+                            .card_title{
+                                p{
+                                    &::before{
+                                        content: url(../assets/industry/industry_logo4.svg);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:nth-child(5){
+                        .card_content{
+                            .card_title{
+                                p{
+                                    &::before{
+                                        content: url(../assets/industry/industry_logo5.svg);
+                                    }
+                                }
+                            }
+                            .card_text{
+                                p{
+                                    &:last-child{
+                                        bottom: calc(-9.25px * 2);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:nth-child(6){
+                        .card_content{
+                            .card_title{
+                                p{
+                                    &::before{
+                                        content: url(../assets/industry/industry_logo6.svg);
+                                    }
+                                }
+                            }
+                            .card_text{
+                                p{
+                                    &:last-child{
+                                        bottom: calc(-9.25px * 2);
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .card_content{
+                        .card_title{
+                            display: flex;
+    
+                            p{
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                                text-align: left;
+                                display: flex;
+                                align-items: center;
+    
+                                &::before{
+                                    content: url(../assets/industry/industry_logo1.svg); 
+                                    margin-right: 22px; 
+                                }
+                            }
+                        }
+    
+                        .card_text{
+                            padding-top: 18px;
+    
+                            & *{
+                                font-size: 15px;
+                                font-weight: 400;
+                                text-align: left;
+                                color: $def_color;
+                            }
+    
+                            :first-child{
+                                line-height: 22px;
+                                max-width: 407.14px;
+                            }
+    
+                            :last-child{
+                                line-height: 15px;
+                                padding-top: 8px;
+                                position: relative;
+                                max-width: 383.57px;
+    
+                                &::before{
+                                    content: "";
+                                    width: 100%;
+                                    position: absolute;
+                                    bottom: -9.25px;
+                                    background: $def_color;
+                                    height: 2px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

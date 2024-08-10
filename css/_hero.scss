@@ -1,0 +1,49 @@
+.hero{
+    padding-block: 94px 101px;
+    background: $def_color;
+
+    .subtitle{
+        padding-top: 28px;
+    }
+}
+
+.hero_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .hero_img{
+        padding-top: 66px;
+        padding-bottom: 70.25px;
+        max-width: 100%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .hero_btns{
+        display: flex;
+        gap: 22px;
+        color: white;
+
+        & *{
+            border-radius: 30px;
+            padding-block: 11px 14px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: .3s ease-in-out;
+        }
+
+        button{
+            padding-inline: 45px;
+            background: $text_pr;
+
+            &:hover{
+                background: $text_sc;
+                color: $text_pr;
+            }
+        }
+    }
+}

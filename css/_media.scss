@@ -1,0 +1,95 @@
+@media (max-width: 1050px) {
+    .industry{
+
+        .container{
+    
+            .industry_content{
+
+                .cards_wrapper{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(6, 1fr);
+                    justify-content: center;
+                    grid-gap: 32px;
+                    padding-top: 58px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px){
+    .brands{   
+        .brands_content{
+         
+            .brands_wrapper{
+                display: grid;
+                grid-template-columns: repeat(1 , 1fr);
+                grid-gap: 40px;
+                // flex-direction: column;
+                padding-top: 75px;
+        
+                .brand{
+                    display: flex;
+                    align-items: center;
+
+                    p{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    
+      
+    }
+}
+
+@media (max-width: 510px) {
+    .hero_content{
+
+        .hero_btns{
+            flex-direction: column;
+            max-width: 100%;
+            width: 100%;
+
+            button{
+                padding-inline: 0;
+                width: 100%;
+            }
+        }
+    }
+
+    .industry{
+
+        .container{
+
+            .industry_content{
+
+                .cards_wrapper{
+
+                    .card{
+                        width: 402px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 466px) {
+    .industry{
+
+        .container{
+
+            .industry_content{
+
+                .cards_wrapper{
+
+                    .card{
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}

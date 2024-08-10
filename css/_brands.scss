@@ -1,0 +1,46 @@
+.brands{
+    padding-block: 77px 100px;
+
+    .brands_content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+     
+        .brands_wrapper{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            padding-top: 75px;
+    
+            .brand{
+                background: $brand_bg;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border-radius: 7px;
+                overflow: hidden;
+                box-shadow: 0px 2px 4px 0px #7f7f7f80;
+    
+                .brand_text{
+                    img{
+                        padding-block: 25px;
+                        display: block;
+                        margin: 0 auto;
+                    }
+    
+                    p{
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 22px;
+                        text-align: center;
+                        color: $text_pr;
+                        max-width: 185px;
+                        padding-bottom: 60px;
+                    }
+                }
+            }
+        }
+    }
+
+  
+}
